@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    min-height: 100vh;
+    width: 100%;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: justify;
+    max-width: 100vw;
+    padding-bottom: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    background: linear-gradient(0deg, rgba(6,101,26,1) 0%, rgba(21,132,41,1) 100%);
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: rgb(0, 66, 12);
+    width: 100%;
+}
+
+header > h1 {
+    color: white;
+    padding: 30px;
+}
+
+h1 > a {
+    color: white;
+    text-decoration: none;
+}
+
+h1 > a:hover {
+    text-decoration: underline;
+}
+
+nav > a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 20px;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+}
+
+p, ul, ol {
+    max-width: 1000px;
+    text-align: justify;
+    font-size: 1em;
+    line-height: 2em;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#atual {
+    background-color: rgb(12 43 18);
+}
+
+img {
+    width: 1000px;
+    max-width: 100%;
+    height: auto;
+}
+
+#preparo {
+    display: flex;
+    flex-direction: column;
+}
+
+#img-bolo {
+    background-image: url('https://docesdajessica.com.br/wp-content/uploads/2023/07/Bolo-de-Cenoura-de-Liquidificador.png');
+    width: 1000px;
+    max-width: 100%;
+    display: block;
+    background-size: cover;
+    height: 500px;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+#star-wars {
+    background-color: black;
+    color: yellow;
+    padding-bottom: 0px;
+}
+
+#h3-preparo {
+    text-align: start;
+}
+
+#espaco {
+    background-image: url('../imagens/espaco.jpg');
+    width: 100%;
+    display: block;
+    background-size: cover;
+    height: 500px;
+    background-position: center center;
+    background-attachment: fixed;
+}
+
+hr {
+    width: 100%;
+    border: 1px solid yellow;
+}
+
+
