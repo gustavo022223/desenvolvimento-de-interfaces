@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    height: 130px;
+    background-color: black;
+    color: white;
+    padding: 0px;
+    flex-wrap: wrap;
+}
+
+h1 {
+    display: flex;
+    align-items: center;
+    padding: 0px 5px 0px 5px;
+}
+
+#nome-banda {
+    font-family: Helvetica;
+    font-style: italic;
+    font-size: 3em;
+} 
+
+nav > a {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-bottom: 5px solid transparent;
+}
+
+nav > a:hover {
+    border-bottom-color: #ffffff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.wrap-bloco {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #161314;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+#fonte-branca {
+    color: white;
+}
+
+.bloco {
+    max-width: 500px;
+    margin: 10px;
+    overflow: hidden;
+    padding: 10px;
+    align-content: center;
+}
+
+main > h1 {
+    justify-content: center;
+}
+
+#img-personalidade {
+    background: url('images/oasis.jpg') no-repeat;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    height: 550px;
+    width: 500px;
+}
+
+#img-noel-liam {
+    background: url('images/Tour-Bus-October-1994-opt.jpg') no-repeat;
+    display: block;
+    background-size: cover;
+    background-position: center center;
+    height: 550px;
+    width: 500px;
+}
+
+#img-banda {
+    background: url('images/story-Oasis-by-Jill-Furmanovski-November-1997-credit-icon-Rockarchive.jpg') no-repeat;
+    display: block;
+    background-size: cover;
+    background-position: center bottom;
+    height: 350px;
+    width: 500px;
+}
+
+p {
+    text-align: justify;
+    line-height: 1.5em;
+    text-indent: 30px;
+}
+
+footer {
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding: 5px;
+    margin-top: auto;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        height: 200px;
+    }
+}
