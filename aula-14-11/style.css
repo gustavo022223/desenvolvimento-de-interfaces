@@ -133,4 +133,9 @@ footer {
     header {
         height: 300px;
     }
+
+    #img-personalidade, #img-banda {
+        height: 400px;
+        width: 400px;
+    }
 }
