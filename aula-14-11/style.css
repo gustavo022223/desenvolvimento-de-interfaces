@@ -146,6 +146,10 @@ main > h1 {
     margin-bottom: 5px;
 }
 
+.bloco-album > p > a {
+    color: black;
+}
+
 .capa-album {
     display: block;
     background-size: cover;
